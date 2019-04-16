@@ -1,0 +1,8 @@
+
+department wise ec2 - { "And": [{"Tags": { "Key": "Department", "Values": ["WS-prod-34-ha"] } }, {"Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Compute Cloud - Compute" ] }} ] }
+
+department wise elb - { "And": [{"Tags": { "Key": "Department", "Values": ["WS-prod-34-ha"] } }, {"Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Load Balancing" ] }} ] }
+
+department wise data transfer - { "And": [{"Tags": { "Key": "Department", "Values": ["WS-prod-34-ha"] } }, {"Dimensions": { "Key": "USAGE_TYPE", "Values": ["DataTransfer"] }} ] }
+
+department wise ec2 - others - { "And": [{"Tags": { "Key": "Department", "Values": ["WS-prod-34-ha"] } }, {"Dimensions": { "Key": "SERVICE", "Values": [ "EC2 - Other" ] }} ] }
